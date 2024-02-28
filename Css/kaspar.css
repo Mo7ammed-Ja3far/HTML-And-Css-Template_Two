@@ -20,6 +20,23 @@ body {
 ul {
   list-style: none;
 }
+.scroll {
+  text-decoration: none;
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  position: sticky;
+  top: 90%;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  float: right;
+  z-index: 100;
+  right: 30px;
+}
 /* end rules */
 
 .container {
@@ -433,6 +450,10 @@ header .container nav .form {
 .portfolio .photos .box:hover .caption {
   bottom: -20px;
 }
+.portfolio .photos .box:hover img {
+  transition: 0.4s;
+  transform: scale(1.2) rotate(6deg);
+}
 
 .portfolio .photos .box .caption h4 {
   font-size: 25px;
@@ -444,14 +465,17 @@ header .container nav .form {
 }
 .portfolio .more {
   text-decoration: none;
-  padding: 15px 20px;
-  font-size: 30px;
+  padding: 10px 15px;
+  font-size: 22px;
   position: relative;
   display: block;
   background-color: var(--main-color);
   max-width: max-content;
   margin: 60px auto;
+  text-decoration: none;
+  color: white;
 }
+
 .portfolio .video {
   width: 100%;
   position: relative;
@@ -486,6 +510,12 @@ header .container nav .form {
 .portfolio .video .text p {
   margin: 25px 0;
 }
+@media (max-width: 767px) {
+  .portfolio .video .text p {
+    margin: 5px 0;
+  }
+}
+
 .portfolio .video .text button {
   padding: 10px;
   cursor: pointer;
@@ -880,6 +910,7 @@ header .container nav .form {
   color: white;
   padding: 20px;
   display: flex;
+  border: none;
   margin-left: auto;
   cursor: pointer;
 }
