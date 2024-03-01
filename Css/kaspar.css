@@ -721,7 +721,7 @@ header .container nav .form {
   background-color: rgba(0, 0, 0, 40%);
 }
 .full-text .text {
-  max-width: 800px;
+  min-width: 390px;
   z-index: 1;
   text-align: center;
 }
