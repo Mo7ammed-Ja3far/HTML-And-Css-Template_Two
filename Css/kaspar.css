@@ -111,7 +111,8 @@ header .container nav ul {
   header .container nav ul {
     display: none;
   }
-  header .container nav .toggle-menu:hover + ul {
+  header .container nav .toggle-menu:hover + ul,
+  header .container nav ul:hover {
     flex-direction: column;
     display: flex;
     position: absolute;
