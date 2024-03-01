@@ -422,6 +422,7 @@ header .container nav .form {
 }
 .portfolio .photos .box img {
   max-width: 100%;
+  transition: 0.4s;
 }
 @media (max-width: 768px) {
   .portfolio .photos .box {
@@ -452,7 +453,6 @@ header .container nav .form {
   bottom: -20px;
 }
 .portfolio .photos .box:hover img {
-  transition: 0.4s;
   transform: scale(1.2) rotate(6deg);
 }
 
