@@ -4,11 +4,7 @@ let landing = document.querySelector("#home");
 let bullets = document.querySelectorAll(".bullets ul li");
 let imgplace = document.querySelectorAll(".box img");
 let links = document.querySelectorAll(".links ul li");
-let imgs = [
-  "../Media/cover1.jpg",
-  "../Media/cover0.webp",
-  "../Media/cover2.jpg",
-];
+let imgs = ["Media/cover1.jpg", "Media/cover0.webp", "Media/cover2.jpg"];
 changeBG();
 i.forEach((e, i) => {
   e.addEventListener("click", () => {
