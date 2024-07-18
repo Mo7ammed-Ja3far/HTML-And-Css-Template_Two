@@ -154,7 +154,7 @@ header .container nav .form {
 }
 /* Start landing */
 .landing {
-  background-image: url(../Media/9384.webp);
+  background-image: url("../Media/cover0.webp");
   height: 100vh;
   position: relative;
   background-position: center;
@@ -201,20 +201,16 @@ header .container nav .form {
   transform: translateY(-50%);
 }
 
+.landing i {
+  padding: 15px;
+}
 .landing .fa-angle-left {
   left: 0;
-  margin: 0 7px;
 }
 .landing .fa-angle-right {
   right: 0;
-  margin: 0 7px;
 }
-@media (max-width: 767px) {
-  .landing .fa-angle-left,
-  .landing .fa-angle-right {
-    display: none;
-  }
-}
+
 .landing .bullets ul {
   display: flex;
   left: 50%;
@@ -406,6 +402,7 @@ header .container nav .form {
 }
 .portfolio .container li {
   /* margin: 10px; */
+  cursor: pointer;
   padding: 5px;
   font-size: 14px;
   font-weight: 800;
