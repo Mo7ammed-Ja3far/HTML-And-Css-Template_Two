@@ -184,6 +184,8 @@ header .container nav .form {
 @media (max-width: 767px) {
   .landing .text {
     width: 100%;
+    text-align: center;
+    justify-content: center;
   }
 }
 .landing .text .content h2 {
